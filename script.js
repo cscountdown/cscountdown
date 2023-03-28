@@ -36,6 +36,6 @@ var x = setInterval(function() {
 	// If the countdown is finished, display a message
 	if (timeRemaining < 0) {
 		clearInterval(x);
-		document.getElementById("countdown").innerHTML = "The New Chapter";
+		document.getElementById("countdown").innerHTML = "A New Chapter ";
 	}
 }, 1000);
