@@ -26,7 +26,7 @@ var x = setInterval(function() {
 	`;
 */
 	document.getElementById("countdown").innerHTML = `
-    It's been a journey.<br> <br>
+    <B>It's been a journey.<B><br> <br>
 		<span>${days}</span> :
 		<span>${hours}</span> :
 		<span>${minutes}</span> :
